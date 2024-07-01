@@ -1,0 +1,6 @@
+openai==0.27.0
+python-dotenv==1.0.0
+matplotlib==3.7.2
+numpy==1.25.2
+setuptools>=65.5.0
+python-dotenv
