@@ -8,78 +8,17 @@ The main script (`cot_comparison.py`) does the following:
 
 1. Implements standard and contrarian COT approaches
 2. Compares performance across three models: GPT-3.5-turbo, GPT-4, and GPT-4-0613
-3. Tests these approaches on three types of questions: easy, hard, and ambiguous
+3. Tests these approaches on four questions
 4. Scores the outputs based on complexity, diversity, and insightfulness
 5. Visualizes the results for easy comparison
-
-## Results
-
-Here are the results of our experiments:
-
-### Problem 1: How to improve public transportation in a growing city
-
-```
-GPT-3.5-turbo:
-Standard COT Score: 57.06
-Contrarian-enhanced COT Score: 62.24
-Improvement: 5.18 points
-
-GPT-4:
-Standard COT Score: 52.01
-Contrarian-enhanced COT Score: 52.47
-Improvement: 0.47 points
-
-GPT-4-0613:
-Standard COT Score: 53.09
-Contrarian-enhanced COT Score: 50.38
-Improvement: -2.71 points
-```
-
-### Problem 2: Develop a comprehensive plan to reverse global warming within 50 years
-
-```
-GPT-3.5-turbo:
-Standard COT Score: 56.59
-Contrarian-enhanced COT Score: 59.64
-Improvement: 3.05 points
-
-GPT-4:
-Standard COT Score: 49.38
-Contrarian-enhanced COT Score: 53.62
-Improvement: 4.24 points
-
-GPT-4-0613:
-Standard COT Score: 49.37
-Contrarian-enhanced COT Score: 55.17
-Improvement: 5.80 points
-```
-
-### Problem 3: What is the nature of consciousness?
-
-```
-GPT-3.5-turbo:
-Standard COT Score: 54.96
-Contrarian-enhanced COT Score: 58.21
-Improvement: 3.25 points
-
-GPT-4:
-Standard COT Score: 51.85
-Contrarian-enhanced COT Score: 58.40
-Improvement: 6.56 points
-
-GPT-4-0613:
-Standard COT Score: 65.99
-Contrarian-enhanced COT Score: 65.02
-Improvement: -0.96 points
-```
 
 ### Key Findings
 
 1. The contrarian COT approach generally improved scores across most scenarios, with some exceptions.
 2. GPT-3.5-turbo showed consistent improvement with the contrarian approach across all question types.
-3. GPT-4 and GPT-4-0613 showed mixed results, with significant improvements in some cases and slight decreases in others.
+3. GPT-4 and GPT-4o showed mixed results, with significant improvements in some cases and slight decreases in others.
 4. The most substantial improvements were seen in the more complex and ambiguous questions, particularly for GPT-4 models.
-5. Interestingly, GPT-4-0613 showed the highest variance in performance across different question types.
+5. Interestingly, GPT-4o showed the highest variance in performance across different question types.
 
 These results suggest that the effectiveness of the contrarian COT approach may depend on both the model used and the nature of the question being addressed. Further research is needed to understand the factors influencing these variations in performance.
 
